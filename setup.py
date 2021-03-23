@@ -7,7 +7,7 @@ EXTENSIONS = [
     Extension('cyvincenty.core',
               ['cyvincenty/core.pyx'],
               include_dirs=[np.get_include()],
-              extra_compile_args=['/openmp', '/O2', '/fp:fast'],
+              extra_compile_args=[],
               ),
 ]
 
